@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content=" A coming soon page built with bootsrap">
+    <title>Coming Soon Page</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/css/image.png" />       
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
+    <!-- Core  Bootstrap)-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body>
+        <!-- Background Video-->
+        <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/media/bg.mp4" type="video/mp4" /></video>
+<main class="masthead">
+     <div class="masthead-content text-white">
+        <h1 class="fst-italic 1h mb-4">Coming Soon</h1>
+        <p class="mb-5">We'working hard to finish the development of this site.sign up below to receive updates and to be nofified when we launch!</p>
+        <form action="#">
+            <!-- Email address input-->
+            <div class="row input-group-newsletter">
+            <div class="col"><input 
+                id="email"type="email"
+                placeholder="Enter your email address"
+                aria-label="Enter email address">
+            </div>
+ <div class="col-auto">
+    <button class="btn btn-primary disabled" 
+    id="submitButton" type="submit">Notify Me!</button></div>
+    <div class="invalid-feedback mt-2" data-sb-feedback="email:required">An email is required.</div>
+    <div class="invalid-feedback mt-2" data-sb-feedback="email:email">Email is not valid.</div>
+        </form>
+     </div>
+    </div>
+    <!--social icons-->
+    <div class="social-icons">
+        <div class="d-flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
+                   <a href="#" class=" btn btn-dark m-3"><i class="fab fa-twitter"></i></a>
+                   <a href="#" class="btn btn btn-dark m-3"><i class="fab fa-facebook-f"></i></a>
+                   <a href="#" class="btn btn btn-dark m-3"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</main>
+<!--js files-->
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
